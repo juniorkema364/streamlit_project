@@ -1,0 +1,26 @@
+# Secrets et configuration locale
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
