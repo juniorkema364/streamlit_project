@@ -111,11 +111,11 @@ directement depuis `app.py` ou les pages.
 3. Une fois la base créée, ouvrir l'onglet **Redis Connect**.
 4. Copier l'URL au format **TLS** (commence par `rediss://`) :
    ```
-   rediss://default:<password>@<host>:<port>
+   rediss://default:gQAAAAAAAn3XAAIgcDIyMzg1ZTg5NzA1MWI0ZTAzODM5ZDRhMGRkNzY0NDZiNA@mighty-penguin-163287.upstash.io:6379
    ```
 5. Coller cette URL dans votre fichier `.env` :
    ```
-   REDIS_URL=rediss://default:xxxxxxxx@xxxxx.upstash.io:6379
+    REDIS_URL=rediss://default:gQAAAAAAAn3XAAIgcDIyMzg1ZTg5NzA1MWI0ZTAzODM5ZDRhMGRkNzY0NDZiNA@mighty-penguin-163287.upstash.io:6379
    ```
 
 Aucune carte bancaire n'est requise pour le plan gratuit (10 000 commandes/jour,
@@ -132,24 +132,22 @@ largement suffisant pour ce projet académique).
 3. Cliquer sur **New app**, sélectionner le dépôt et le fichier `app.py`.
 4. Dans **Advanced settings > Secrets**, ajouter :
    ```toml
-   REDIS_URL = "rediss://default:xxxxxxxx@xxxxx.upstash.io:6379"
+    REDIS_URL=rediss://default:gQAAAAAAAn3XAAIgcDIyMzg1ZTg5NzA1MWI0ZTAzODM5ZDRhMGRkNzY0NDZiNA@mighty-penguin-163287.upstash.io:6379"
    ```
    (Ne jamais commit ce secret dans le dépôt — c'est le rôle du `.gitignore`.)
 5. Cliquer sur **Deploy**. L'application sera accessible via une URL du type
-   `https://<nom-app>.streamlit.app`.
+   `https://didier-gloire-aude.streamlit.app/`.
 
 ---
 
 ## 🔗 Liens du projet
 
-- **Dépôt GitHub** : `https://github.com/<votre-utilisateur>/<votre-depot>`
-- **Application déployée** : `https://<nom-app>.streamlit.app`
-
-*(À compléter une fois le dépôt créé et l'application déployée.)*
+- **Dépôt GitHub** : `https://github.com/juniorkema364/streamlit_project`
+- **Application déployée** : `https://didier-gloire-aude.streamlit.app/`
+ 
 
 ---
-
-## 📸 Captures à ajouter
+ 
 
 Pour le rapport technique et ce README, prévoir des captures d'écran de :
 
